@@ -240,12 +240,9 @@
   function renderMeta() {
     const M = D.meta;
     $('#hero-count').textContent = M.mba1;
-    $('#stat-rsvp').textContent = M.rsvps_total;
     $('#stat-mbb').textContent = D.flags.mbb;
     $('#stat-fin').textContent = rows.filter(r => r.t.includes('Private Equity') || r.t.includes('Investment Banking')).length;
     $('#stat-recruit').textContent = M.mba1;
-    const d = new Date(M.as_of + 'T12:00:00');
-    $('#asof').textContent = d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
   }
 
   function render() { renderRoom(); renderCharts(); renderCallouts(); renderFirms(); }
