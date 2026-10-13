@@ -46,7 +46,7 @@ body {
 }
 a { color: inherit; }
 h1, h2, h3 { font-family: var(--font-display); font-weight: 500; letter-spacing: -0.01em; margin: 0; }
-h1 { font-size: clamp(44px, 7vw, 84px); line-height: 0.98; font-variation-settings: "opsz" 144; }
+h1 { font-size: clamp(38px, 5.2vw, 64px); line-height: 1.02; font-variation-settings: "opsz" 144; }
 h2 { font-size: clamp(28px, 3.6vw, 40px); line-height: 1.1; }
 h3 { font-size: 20px; line-height: 1.25; }
 p { margin: 0; }
@@ -148,7 +148,7 @@ main { max-width: var(--maxw); margin: 0 auto; padding: 0 16px; }
 .firm-all p { margin-top: 10px; line-height: 1.8; }
 
 /* leland: light panel so the pitch reads as easily as the rest of the page */
-.leland { border-top: 0; padding: 0 0 56px; }
+.leland { border-top: 0; padding: 0 0 48px; }
 .leland-inner { background: var(--sky); color: var(--ink); border-radius: 28px; padding: 48px 40px 40px; }
 .leland .block-head { max-width: 68ch; }
 .leland .block-head p { color: var(--ink-2); font-size: 18px; }
@@ -156,6 +156,7 @@ main { max-width: var(--maxw); margin: 0 auto; padding: 0 16px; }
 .lcard h3 { font-size: 24px; margin-bottom: 12px; padding-bottom: 10px; border-bottom: 3px solid var(--yellow); display: inline-block; }
 .lcard p { color: var(--ink-2); font-size: 17px; line-height: 1.6; max-width: 60ch; }
 .lcard-wide { margin-top: 20px; }
+.sponsor-card { margin-top: 0; background: var(--mist); }
 .lstats { list-style: none; margin: 22px 0 0; padding: 0; display: grid; gap: 12px; }
 .lstats li { display: grid; grid-template-columns: 72px 1fr; gap: 14px; align-items: baseline; border-top: 1px solid var(--line); padding-top: 12px; }
 .lstats .num { font-size: 34px; color: var(--ink); line-height: 1; }

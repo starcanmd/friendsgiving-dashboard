@@ -181,9 +181,6 @@
   function renderCharts() {
     barChart('#chart-primary', D.primary, 'primary');
     barChart('#chart-tags', D.tags, 'tag');
-    barChart('#chart-from', D.from.filter(d => d.label !== 'Not listed'), 'from');
-    barChart('#chart-grew', D.grew.filter(d => d.label !== 'Not listed' && d.label !== 'Other'), 'grew');
-    barChart('#chart-schools', D.schools, 'school');
   }
 
   // ---------- callouts ----------
@@ -246,8 +243,9 @@
     const M = D.meta;
     $('#hero-count').textContent = M.mba1;
     $('#stat-rsvp').textContent = M.rsvps_total;
-    $('#stat-target').textContent = M.target;
-    $('#stat-data').textContent = M.profiles_with_data;
+    $('#stat-mbb').textContent = D.flags.mbb;
+    $('#stat-fin').textContent = rows.filter(r => r.t.includes('Private Equity') || r.t.includes('Investment Banking')).length;
+    $('#stat-recruit').textContent = M.mba1;
     const d = new Date(M.as_of + 'T12:00:00');
     $('#asof').textContent = d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
   }
