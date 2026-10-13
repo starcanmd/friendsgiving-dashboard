@@ -1,31 +1,31 @@
 {
  "meta": {
-  "as_of": "2026-10-09",
-  "rsvps_total": 146,
-  "mba1": 132,
-  "partners": 13,
+  "as_of": "2026-10-13",
+  "rsvps_total": 168,
+  "mba1": 151,
+  "partners": 16,
   "mba2": 1,
-  "paid": 118,
+  "paid": 136,
   "target": 250,
   "capacity": 400,
   "ticket": 199,
   "class_size": 440,
-  "profiles_with_data": 128,
-  "women": 65,
-  "men": 67
+  "profiles_with_data": 146,
+  "women": 69,
+  "men": 82
  },
  "primary": [
   {
    "label": "Consulting",
-   "n": 40
+   "n": 43
   },
   {
    "label": "Private Equity",
-   "n": 19
+   "n": 20
   },
   {
    "label": "Investment Banking & Finance",
-   "n": 8
+   "n": 9
   },
   {
    "label": "Venture Capital & Growth Investing",
@@ -33,99 +33,99 @@
   },
   {
    "label": "Tech & Product",
-   "n": 19
+   "n": 21
   },
   {
    "label": "Startups & Operators",
-   "n": 14
+   "n": 17
   },
   {
    "label": "Healthcare & Life Sciences",
-   "n": 7
-  },
-  {
-   "label": "Consumer, Media & Marketing",
    "n": 8
   },
   {
+   "label": "Consumer, Media & Marketing",
+   "n": 12
+  },
+  {
    "label": "Military & Government",
-   "n": 6
+   "n": 7
   },
   {
    "label": "Energy & Climate",
-   "n": 1
+   "n": 2
   },
   {
    "label": "Other",
-   "n": 2
+   "n": 3
   },
   {
    "label": "Not listed",
-   "n": 2
+   "n": 3
   }
  ],
  "tags": [
   {
    "label": "Consulting",
-   "n": 53
-  },
-  {
-   "label": "Investment Banking",
-   "n": 23
-  },
-  {
-   "label": "Private Equity",
-   "n": 22
+   "n": 58
   },
   {
    "label": "Consumer & Media",
-   "n": 22
+   "n": 27
   },
   {
-   "label": "Healthcare",
-   "n": 18
+   "label": "Investment Banking",
+   "n": 24
   },
   {
-   "label": "Venture Capital",
-   "n": 18
+   "label": "Private Equity",
+   "n": 23
   },
   {
    "label": "AI & Data",
-   "n": 18
+   "n": 20
+  },
+  {
+   "label": "Healthcare",
+   "n": 19
+  },
+  {
+   "label": "Venture Capital",
+   "n": 19
   },
   {
    "label": "Big Tech",
-   "n": 12
+   "n": 13
   },
   {
    "label": "Energy & Climate",
-   "n": 11
+   "n": 12
   },
   {
    "label": "Social Impact",
-   "n": 11
+   "n": 12
   },
   {
    "label": "Founder",
-   "n": 5
+   "n": 8
   },
   {
    "label": "Government & Policy",
-   "n": 5
+   "n": 6
   },
   {
    "label": "Military",
-   "n": 4
+   "n": 5
   }
  ],
  "firms": [
   {
    "label": "McKinsey & Company",
-   "n": 14
+   "n": 15
   },
   {
    "label": "BCG",
-   "n": 13
+   "n": 14
   },
   {
    "label": "Bain & Company",
@@ -137,10 +137,14 @@
   },
   {
    "label": "Deloitte",
-   "n": 5
+   "n": 6
   },
   {
    "label": "Uber",
+   "n": 4
+  },
+  {
+   "label": "Accenture",
    "n": 4
   },
   {
@@ -149,10 +153,6 @@
   },
   {
    "label": "Morgan Stanley",
-   "n": 3
-  },
-  {
-   "label": "Accenture",
    "n": 3
   },
   {
@@ -194,6 +194,10 @@
   {
    "label": "Google",
    "n": 2
+  },
+  {
+   "label": "Lazard",
+   "n": 2
   }
  ],
  "firms_all": [
@@ -207,6 +211,7 @@
   "Altamont Capital Partners",
   "Alton Aviation Consultancy",
   "Apple",
+  "Arcadia Medicine",
   "Aron Global",
   "Arup",
   "BCG",
@@ -219,6 +224,7 @@
   "Berkshire Partners",
   "Beyond Capital Ventures",
   "BillionToOne",
+  "Blackstock & Weber",
   "Blackstone",
   "Blind 8",
   "Bold Capital Partners",
@@ -236,6 +242,7 @@
   "Credit Suisse",
   "D. E. Shaw",
   "Deloitte",
+  "Department of Defense",
   "Digiata",
   "EQT",
   "EY-Parthenon",
@@ -245,6 +252,7 @@
   "Equinox",
   "Exponent Beauty",
   "F. Schumacher & Co",
+  "FORRGE AI",
   "Fay",
   "Fengate",
   "Fifth Down Capital",
@@ -261,6 +269,7 @@
   "Growthcurve Capital",
   "Hahn & Co",
   "Headway",
+  "Heli Invest",
   "Helium Health",
   "Hoover Institution",
   "Houlihan Lokey",
@@ -278,12 +287,16 @@
   "Knova Finance",
   "Koa",
   "Korea Asset Purchase",
+  "LVMH",
+  "Lawrence Berkeley National Laboratory",
   "Lazard",
   "Lee International",
+  "LetinAR",
   "Level All",
   "Levi Strauss & Co",
   "LifeX",
   "Lindsay Goldberg",
+  "Lockheed Martin",
   "Lotus",
   "Lululemon",
   "Lumos Robotics",
@@ -296,6 +309,7 @@
   "Mercor",
   "Meta (Instagram)",
   "Meta (WhatsApp)",
+  "Microsoft",
   "Moelis",
   "Momofuku",
   "Morgan Stanley",
@@ -316,21 +330,26 @@
   "PepsiCo",
   "Peregrine",
   "Portside",
+  "PowerLines",
   "Princeton in Africa",
+  "Procter & Gamble",
   "Prologue Strategy",
   "Providence Equity Partners",
   "Public Opinion Productions",
+  "PwC",
   "RBC Capital Markets",
   "Revecore",
   "Risen Health",
   "Roland Berger",
   "Rothschild & Co",
   "SVB Securities",
+  "Samsung Electronics",
   "ServiceTitan",
   "Shorooq Partners",
   "Silver Lake",
   "Sioux Lookout First Nations Health Authority",
   "Sirona Technologies",
+  "Smash Sports",
   "Sneaker Con",
   "Sneaker Spot LLC",
   "Sparkwave Capital",
@@ -339,8 +358,12 @@
   "Strategy&",
   "TPG",
   "Texas Instruments",
+  "The Boeing Company",
+  "The Kraft Heinz Company",
+  "The Norinchukin Bank",
   "The World Bank",
   "Truvian",
+  "U.S. Department of Energy",
   "U.S. Department of State",
   "U.S. Navy",
   "U.S. Space Force",
@@ -354,12 +377,13 @@
   "Wyld VC",
   "Yukon Hospitals",
   "ZCG",
-  "foodpanda"
+  "foodpanda",
+  "marswalk"
  ],
  "schools": [
   {
    "label": "Harvard",
-   "n": 11
+   "n": 12
   },
   {
    "label": "Northwestern",
@@ -367,6 +391,10 @@
   },
   {
    "label": "UC Berkeley",
+   "n": 5
+  },
+  {
+   "label": "Stanford",
    "n": 5
   },
   {
@@ -382,15 +410,19 @@
    "n": 4
   },
   {
-   "label": "Stanford",
-   "n": 4
-  },
-  {
    "label": "Cornell",
    "n": 4
   },
   {
+   "label": "NYU",
+   "n": 3
+  },
+  {
    "label": "WashU",
+   "n": 3
+  },
+  {
+   "label": "UPenn",
    "n": 3
   },
   {
@@ -398,46 +430,42 @@
    "n": 3
   },
   {
+   "label": "USC",
+   "n": 3
+  },
+  {
    "label": "Notre Dame",
    "n": 3
   },
   {
-   "label": "NYU",
-   "n": 2
-  },
-  {
    "label": "US Naval Academy",
-   "n": 2
-  },
-  {
-   "label": "UPenn",
-   "n": 2
-  },
-  {
-   "label": "USC",
    "n": 2
   }
  ],
  "from": [
   {
    "label": "US Northeast",
-   "n": 55
+   "n": 62
   },
   {
    "label": "US West Coast",
-   "n": 26
+   "n": 29
   },
   {
    "label": "Asia",
-   "n": 11
+   "n": 15
   },
   {
    "label": "US South & Mountain",
-   "n": 7
+   "n": 8
   },
   {
    "label": "US Midwest",
    "n": 7
+  },
+  {
+   "label": "Middle East & Central Asia",
+   "n": 5
   },
   {
    "label": "Canada",
@@ -448,12 +476,8 @@
    "n": 5
   },
   {
-   "label": "Middle East & Central Asia",
-   "n": 4
-  },
-  {
    "label": "Europe",
-   "n": 4
+   "n": 5
   },
   {
    "label": "Not listed",
@@ -466,24 +490,28 @@
   {
    "label": "Australia & NZ",
    "n": 2
+  },
+  {
+   "label": "Other",
+   "n": 2
   }
  ],
  "grew": [
   {
    "label": "US Northeast",
-   "n": 30
+   "n": 33
   },
   {
    "label": "US West Coast",
-   "n": 25
+   "n": 28
   },
   {
    "label": "Asia",
-   "n": 22
+   "n": 27
   },
   {
    "label": "US Midwest",
-   "n": 14
+   "n": 16
   },
   {
    "label": "US South & Mountain",
@@ -491,19 +519,19 @@
   },
   {
    "label": "Europe",
-   "n": 8
+   "n": 9
   },
   {
    "label": "Canada",
-   "n": 6
+   "n": 7
   },
   {
    "label": "Middle East & Central Asia",
-   "n": 5
+   "n": 6
   },
   {
    "label": "Australia & NZ",
-   "n": 4
+   "n": 5
   },
   {
    "label": "Not listed",
@@ -515,7 +543,7 @@
   },
   {
    "label": "Other",
-   "n": 1
+   "n": 3
   },
   {
    "label": "Africa",
@@ -523,15 +551,15 @@
   }
  ],
  "flags": {
-  "mbb": 34,
-  "bank": 25,
-  "bigtech": 13,
-  "consulting_any": 53,
-  "pe_any": 22,
-  "ib_any": 23,
-  "vc_any": 18,
-  "founder": 5,
-  "intl_grew": 50
+  "mbb": 36,
+  "bank": 26,
+  "bigtech": 14,
+  "consulting_any": 58,
+  "pe_any": 23,
+  "ib_any": 24,
+  "vc_any": 19,
+  "founder": 8,
+  "intl_grew": 61
  },
  "rows": [
   {
@@ -2277,6 +2305,241 @@
    ],
    "from": "Latin America",
    "grew": "Latin America",
+   "s": null
+  },
+  {
+   "p": "Consulting",
+   "t": [
+    "AI & Data",
+    "Consulting"
+   ],
+   "f": [
+    "Accenture"
+   ],
+   "from": "US Northeast",
+   "grew": "US Midwest",
+   "s": null
+  },
+  {
+   "p": "Consumer, Media & Marketing",
+   "t": [
+    "Consulting",
+    "Consumer & Media"
+   ],
+   "f": [
+    "Heli Invest",
+    "LVMH",
+    "PwC"
+   ],
+   "from": "Other",
+   "grew": "Other",
+   "s": null
+  },
+  {
+   "p": "Consumer, Media & Marketing",
+   "t": [
+    "Consumer & Media"
+   ],
+   "f": [
+    "Procter & Gamble"
+   ],
+   "from": "Asia",
+   "grew": "Asia",
+   "s": null
+  },
+  {
+   "p": "Startups & Operators",
+   "t": [
+    "Venture Capital"
+   ],
+   "f": [
+    "Smash Sports"
+   ],
+   "from": "US West Coast",
+   "grew": "US West Coast",
+   "s": "Stanford"
+  },
+  {
+   "p": "Not listed",
+   "t": [],
+   "f": [],
+   "from": "Asia",
+   "grew": "Asia",
+   "s": "UPenn"
+  },
+  {
+   "p": "Investment Banking & Finance",
+   "t": [
+    "Investment Banking"
+   ],
+   "f": [
+    "Lazard"
+   ],
+   "from": "US Northeast",
+   "grew": "US Northeast",
+   "s": null
+  },
+  {
+   "p": "Consumer, Media & Marketing",
+   "t": [
+    "Consumer & Media"
+   ],
+   "f": [
+    "Blackstock & Weber"
+   ],
+   "from": "US Northeast",
+   "grew": "US Northeast",
+   "s": "NYU"
+  },
+  {
+   "p": "Military & Government",
+   "t": [
+    "Military"
+   ],
+   "f": [
+    "Department of Defense"
+   ],
+   "from": "US Northeast",
+   "grew": "US Northeast",
+   "s": null
+  },
+  {
+   "p": "Tech & Product",
+   "t": [
+    "AI & Data",
+    "Founder"
+   ],
+   "f": [
+    "The Boeing Company",
+    "FORRGE AI"
+   ],
+   "from": "US Northeast",
+   "grew": "Asia",
+   "s": null
+  },
+  {
+   "p": "Healthcare & Life Sciences",
+   "t": [
+    "Consulting",
+    "Healthcare"
+   ],
+   "f": [
+    "Arcadia Medicine",
+    "McKinsey & Company"
+   ],
+   "from": "US West Coast",
+   "grew": "Australia & NZ",
+   "s": null
+  },
+  {
+   "p": "Private Equity",
+   "t": [
+    "Private Equity"
+   ],
+   "f": [
+    "The Norinchukin Bank"
+   ],
+   "from": "Asia",
+   "grew": "Asia",
+   "s": null
+  },
+  {
+   "p": "Tech & Product",
+   "t": [
+    "Big Tech"
+   ],
+   "f": [
+    "Microsoft"
+   ],
+   "from": "US Northeast",
+   "grew": "Canada",
+   "s": null
+  },
+  {
+   "p": "Other",
+   "t": [],
+   "f": [
+    "Lockheed Martin"
+   ],
+   "from": "US West Coast",
+   "grew": "US West Coast",
+   "s": null
+  },
+  {
+   "p": "Energy & Climate",
+   "t": [
+    "Energy & Climate",
+    "Founder",
+    "Government & Policy",
+    "Social Impact"
+   ],
+   "f": [
+    "PowerLines",
+    "U.S. Department of Energy",
+    "Lawrence Berkeley National Laboratory"
+   ],
+   "from": "US Northeast",
+   "grew": "US Midwest",
+   "s": "Harvard"
+  },
+  {
+   "p": "Consumer, Media & Marketing",
+   "t": [
+    "Consumer & Media"
+   ],
+   "f": [
+    "Samsung Electronics",
+    "The Kraft Heinz Company"
+   ],
+   "from": "Middle East & Central Asia",
+   "grew": "Middle East & Central Asia",
+   "s": null
+  },
+  {
+   "p": "Startups & Operators",
+   "t": [],
+   "f": [
+    "LetinAR"
+   ],
+   "from": "Asia",
+   "grew": "Asia",
+   "s": null
+  },
+  {
+   "p": "Consulting",
+   "t": [
+    "Consulting"
+   ],
+   "f": [
+    "BCG"
+   ],
+   "from": "Other",
+   "grew": "Other",
+   "s": null
+  },
+  {
+   "p": "Startups & Operators",
+   "t": [
+    "Consumer & Media",
+    "Founder"
+   ],
+   "f": [
+    "marswalk"
+   ],
+   "from": "Europe",
+   "grew": "Europe",
+   "s": "USC"
+  },
+  {
+   "p": "Consulting",
+   "t": [
+    "Consulting"
+   ],
+   "f": [
+    "Deloitte"
+   ],
+   "from": "US South & Mountain",
+   "grew": "US West Coast",
    "s": null
   }
  ]
