@@ -1,4 +1,4 @@
-# Who's at the Table — GSB '28 Friendsgiving sponsor dashboard
+# Stanford Class of 2028 Friendsgiving Dinner, sponsor dashboard
 
 Static site, no build step. Deploy on Vercel by importing this repo (framework preset: Other, output directory: `/`).
 

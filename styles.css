@@ -147,25 +147,24 @@ main { max-width: var(--maxw); margin: 0 auto; padding: 0 16px; }
 .firm-all summary { cursor: pointer; font-weight: 600; color: var(--ink); }
 .firm-all p { margin-top: 10px; line-height: 1.8; }
 
-/* leland */
+/* leland: light panel so the pitch reads as easily as the rest of the page */
 .leland { border-top: 0; padding: 0 0 56px; }
-.leland-inner { background: var(--ink); color: #f1f1ed; border-radius: 28px; padding: 48px 40px 40px; }
-.leland .block-head p { color: #c2c2bb; }
-.leland h2 { color: #fff; }
-.lcard { border: 1px solid #3a3a37; border-radius: var(--radius); padding: 24px; }
-.lcard h3 { color: var(--yellow); margin-bottom: 10px; }
-.lcard p { color: #d6d6cf; font-size: 15px; }
+.leland-inner { background: var(--sky); color: var(--ink); border-radius: 28px; padding: 48px 40px 40px; }
+.leland .block-head { max-width: 68ch; }
+.leland .block-head p { color: var(--ink-2); font-size: 18px; }
+.lcard { background: var(--paper); border-radius: var(--radius); padding: 28px; }
+.lcard h3 { font-size: 24px; margin-bottom: 12px; padding-bottom: 10px; border-bottom: 3px solid var(--yellow); display: inline-block; }
+.lcard p { color: var(--ink-2); font-size: 17px; line-height: 1.6; max-width: 60ch; }
 .lcard-wide { margin-top: 20px; }
-.lstats { list-style: none; margin: 18px 0 0; padding: 0; display: grid; gap: 10px; }
-.lstats li { display: grid; grid-template-columns: 64px 1fr; gap: 12px; align-items: baseline; border-top: 1px solid #3a3a37; padding-top: 10px; }
-.lstats .num { font-size: 30px; color: #fff; line-height: 1; }
-.lstats span:last-child { font-size: 14px; color: #d6d6cf; }
-.offer { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-top: 10px; }
-.offer strong { display: block; color: #fff; margin-bottom: 6px; font-weight: 600; }
-.offer-note { margin-top: 22px; font-size: 14px; color: #c2c2bb; max-width: 70ch; }
-.cta-row { display: flex; gap: 12px; margin-top: 22px; flex-wrap: wrap; }
-.leland .btn-ghost { color: #fff; border-color: #5a5a56; }
-.leland .btn-ghost:hover { border-color: #fff; }
+.lstats { list-style: none; margin: 22px 0 0; padding: 0; display: grid; gap: 12px; }
+.lstats li { display: grid; grid-template-columns: 72px 1fr; gap: 14px; align-items: baseline; border-top: 1px solid var(--line); padding-top: 12px; }
+.lstats .num { font-size: 34px; color: var(--ink); line-height: 1; }
+.lstats span:last-child { font-size: 16px; color: var(--ink); line-height: 1.45; }
+.offer { display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px; margin-top: 14px; }
+.offer strong { display: block; color: var(--ink); margin-bottom: 6px; font-weight: 600; font-size: 17px; }
+.offer p { font-size: 16px; }
+.offer-note { margin-top: 24px; font-size: 16px; color: var(--ink-2); max-width: 70ch; }
+.cta-row { display: flex; gap: 12px; margin-top: 24px; flex-wrap: wrap; }
 
 .foot { padding: 24px 0 48px; font-size: 13px; color: var(--ink-3); border-top: 1px solid var(--line); display: grid; gap: 8px; max-width: 80ch; }
 
