@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Who's at the Table · GSB '28 Friendsgiving</title>
+<meta name="description" content="Backgrounds of the Stanford GSB Class of 2028 students attending Friendsgiving 2026, aggregated for sponsors.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23FFD54A'/%3E%3Ccircle cx='16' cy='16' r='5' fill='%231C1C1C'/%3E%3C/svg%3E">
+</head>
+<body>
+
+<header class="top">
+  <a class="brand" href="#top">
+    <span class="brand-dot" aria-hidden="true"></span>
+    <span>Class of '28 Friendsgiving</span>
+  </a>
+  <nav class="top-nav">
+    <a href="#backgrounds">Backgrounds</a>
+    <a href="#firms">Firms</a>
+    <a href="#geo">Where from</a>
+    <a href="#leland">For Leland</a>
+  </nav>
+  <a class="btn btn-yellow" href="#leland">Sponsor the dinner</a>
+</header>
+
+<main id="top">
+
+  <!-- HERO: the room -->
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="hero-kicker">Saturday, Nov 14, 2026 · Terra SF · Stanford GSB Class of 2028</p>
+      <h1>Who's at the table.</h1>
+      <p class="hero-lede">
+        <span id="hero-count" class="num">132</span> classmates have already claimed a seat at the first dinner that puts the whole MBA class in one room. Every seat below is a confirmed attendee, colored by what they did before Stanford. Hover a background, or pick one, to see where they sit.
+      </p>
+      <div class="hero-foot">
+        <div class="stat"><span class="num" id="stat-rsvp">146</span><span class="lab">RSVPs so far, incl. partners</span></div>
+        <div class="stat"><span class="num" id="stat-target">250</span><span class="lab">seats we're filling, of 400</span></div>
+        <div class="stat"><span class="num" id="stat-data">128</span><span class="lab">attendees with a listed career history</span></div>
+      </div>
+    </div>
+    <figure class="room" aria-label="Seating map of confirmed attendees, one seat per person, colored by professional background">
+      <div class="room-head">
+        <span class="room-title">The room</span>
+        <span class="room-sub" id="room-sub">All attendees</span>
+        <button class="room-clear" id="room-clear" hidden>Clear filter</button>
+      </div>
+      <svg id="room-svg" viewBox="0 0 640 420" role="img"></svg>
+      <figcaption id="room-legend" class="legend"></figcaption>
+    </figure>
+  </section>
+
+  <!-- BACKGROUNDS -->
+  <section class="block" id="backgrounds">
+    <div class="block-head">
+      <h2>What they did before the GSB</h2>
+      <p>Each attendee is placed once, by their most recent role. Click a bar to filter the rest of the page; click again to clear.</p>
+    </div>
+    <div class="grid-2">
+      <div class="card">
+        <h3>Primary background</h3>
+        <div id="chart-primary" class="chart"></div>
+      </div>
+      <div class="card">
+        <h3>Experience anywhere in their career</h3>
+        <p class="card-note">A person can appear in several rows. A PE associate who started in banking counts in both.</p>
+        <div id="chart-tags" class="chart"></div>
+      </div>
+    </div>
+    <div class="callouts" id="callouts"></div>
+  </section>
+
+  <!-- FIRMS -->
+  <section class="block" id="firms">
+    <div class="block-head">
+      <h2>Where they've worked</h2>
+      <p>Employers named on attendees' class-directory pages. Size shows how many attendees list the firm.</p>
+    </div>
+    <div class="card">
+      <div id="firm-cloud" class="firm-cloud"></div>
+      <details class="firm-all">
+        <summary>Every employer named, A to Z</summary>
+        <p id="firm-list"></p>
+      </details>
+    </div>
+  </section>
+
+  <!-- GEO + SCHOOLS -->
+  <section class="block" id="geo">
+    <div class="block-head">
+      <h2>Where they come from</h2>
+      <p>Most arrive from New York and the Bay Area, but more than a third grew up outside the US.</p>
+    </div>
+    <div class="grid-3">
+      <div class="card">
+        <h3>Moving to Stanford from</h3>
+        <div id="chart-from" class="chart"></div>
+      </div>
+      <div class="card">
+        <h3>Grew up in</h3>
+        <div id="chart-grew" class="chart"></div>
+      </div>
+      <div class="card">
+        <h3>Undergraduate school</h3>
+        <p class="card-note">Top schools; attendees come from 64 different institutions on five continents.</p>
+        <div id="chart-schools" class="chart"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LELAND -->
+  <section class="block leland" id="leland">
+    <div class="leland-inner">
+      <div class="block-head">
+        <h2>Why this room matters for Leland</h2>
+        <p>Leland's marketplace runs on two groups: experts who coach, and ambitious people who buy coaching. This dinner seats both, three weeks before summer internship recruiting opens.</p>
+      </div>
+
+      <div class="grid-2 leland-cols">
+        <div class="lcard">
+          <h3>Your next coaches</h3>
+          <p>Leland lists school admissions, consulting, and finance careers among its core coaching categories. The people who deliver that coaching look like this room: recent MBB, bulge-bracket, and PE alumni who just went through the admissions cycle themselves.</p>
+          <ul class="lstats" id="lstats-coach"></ul>
+        </div>
+        <div class="lcard">
+          <h3>Your next customers</h3>
+          <p>Every MBA1 in the room recruits for a summer 2027 internship starting in January, and most are switching function, industry, or geography. Coaching demand peaks in the twelve weeks after this dinner.</p>
+          <ul class="lstats" id="lstats-cust"></ul>
+        </div>
+      </div>
+
+      <div class="lcard lcard-wide">
+        <h3>What a sponsor gets</h3>
+        <div class="offer">
+          <div>
+            <strong>Presence in the room</strong>
+            <p>Logo on the welcome screen, menus, and photo spot; a two-minute welcome toast; branded table cards at every one of the 44 tables.</p>
+          </div>
+          <div>
+            <strong>Reach before and after</strong>
+            <p>Named as presenting partner in the invitation and reminder blasts to the full MBA1 class list of roughly 440, plus a thank-you post with event photos to the class.</p>
+          </div>
+          <div>
+            <strong>A direct line to the class</strong>
+            <p>A coach-recruiting sign-up at check-in and a follow-up note from the organizing committee introducing Leland to interested attendees.</p>
+          </div>
+        </div>
+        <p class="offer-note">Sponsorship directly lowers the $199 ticket for classmates on financial aid, which is why we're raising outside funding. We'll share package levels on request; every dollar past cost goes to those rebates.</p>
+        <div class="cta-row">
+          <a class="btn btn-yellow" href="mailto:starcan@stanford.edu?subject=Friendsgiving%20sponsorship">Talk to the committee</a>
+          <a class="btn btn-ghost" href="https://gsb-friendsgiving.com/join" target="_blank" rel="noopener">See the event page</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <p>Aggregated from the Stanford GSB Class of 2028 student directory and the Friendsgiving RSVP list as of <span id="asof">Oct 9, 2026</span>. No individual attendee data is shown. Counts update as RSVPs come in.</p>
+    <p>Questions: text Helena at (707) 235-5438 or email the committee.</p>
+  </footer>
+</main>
+
+<div id="tip" class="tip" role="tooltip" hidden></div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
