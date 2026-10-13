@@ -47,16 +47,14 @@
 
   // ---------- seating map ----------
   const seatOrder = (() => {
-    // Deal attendees across tables so every table mixes backgrounds (deterministic)
+    // Spread every background evenly across the tables so no table is single-industry (deterministic)
     const byCat = {};
     rows.forEach((r, i) => { (byCat[r.p] = byCat[r.p] || []).push(i); });
-    const lanes = PRIMARY_ORDER.map(k => byCat[k] || []);
-    const out = [];
-    let left = N;
-    while (left > 0) {
-      for (const lane of lanes) if (lane.length) { out.push(lane.shift()); left--; }
-    }
-    return out;
+    const ordered = PRIMARY_ORDER.flatMap(k => byCat[k] || []);
+    const tablesUsed = Math.ceil(N / 8);
+    const tables = Array.from({ length: tablesUsed }, () => []);
+    ordered.forEach((idx, k) => tables[k % tablesUsed].push(idx));
+    return tables.flat();
   })();
 
   const ROOM = { cols: 5, rowsT: 4, seatsPerTable: 8 };
@@ -230,7 +228,7 @@
       [F.bigtech, 'come from Google, Apple, Meta, Uber, Palantir, and other large tech companies'],
     ];
     const cust = [
-      [M.mba1, 'MBA1s start recruiting for summer 2027 within weeks of this dinner'],
+      [M.mba1, 'MBA1s recruiting for summer 2027 internships, some already this quarter'],
       [F.vc_any + F.founder, 'have been investors or founders and are weighing building vs. joining'],
       [F.intl_grew, 'grew up outside the US and are navigating a US recruiting cycle for the first time'],
       [M.class_size - M.mba1, 'more classmates will see Leland named as sponsor in the class-wide invitation'],
